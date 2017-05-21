@@ -1,0 +1,1 @@
+<li><a href="{{ route('carts.show') }}">Cart : <i class="badge">{{ $cart->sumBooks() < 1 ? '0' : $cart->sumBooks() }}</i></a></li>
